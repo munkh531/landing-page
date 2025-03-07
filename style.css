@@ -1,16 +1,72 @@
-.header-logo{
-    font-size: 24px;
-    color: #F9FAF8;
+body{
+    margin: 0;
 }
 .hero{
+    display: flex;
+    flex-direction: column;
     font-family: Roboto;
     background-color: #1F2937;
 }
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    flex-basis: 50vh;
+}
+.links{
+    flex-basis: 50vh;
+}
 ul{
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 20px;
 }
-a{
+a, .text{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+.title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin: 100px 0;
+}
+.header-left{
+    width: 50vh;
+}
+.header-right{
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.placeholder{
+    color: #F9FAF8;
+}
+.button-header{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-weight: 900;
+    margin: 10px 0;
 }
