@@ -1,11 +1,12 @@
 body{
     margin: 0;
 }
-.hero{
+.hero, .footer{
     display: flex;
     flex-direction: column;
     font-family: Roboto;
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 .navbar{
     display: flex;
@@ -16,7 +17,6 @@ body{
 }
 .header-logo{
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: 900;
     flex-basis: 50vh;
 }
@@ -37,7 +37,6 @@ a, .text{
 }
 .title{
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 .content{
@@ -69,4 +68,83 @@ a, .text{
     padding: 8px 20px;
     font-weight: 900;
     margin: 10px 0;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px 0;
+}
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.info-box{
+    width: 140px;
+    height: 140px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 20px;
+}
+.info-text{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+.quote{
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 120px;
+}
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-name{
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.signup{
+    background-color: #3882F6;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px; 
+    border-radius: 5px;
+    margin: 10% 10%;
+}
+.signup button{
+
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 1;
+    border-color: #f9faf8;
+    border-style: solid;
+    color: #f9faf8;
+    padding: 10px 20px;
+    margin-left: 60px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
